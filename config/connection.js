@@ -10,6 +10,6 @@ const sequelize = new Sequelize('just_tech_news_db', 'root', 'Linksys235769!', {
   port: 3306
 });
 
-const PORT = process.env.PORT || 3001;
+
 
 module.exports = sequelize;
